@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agapnet"
+version = "0.1.0"
+description = "Affect-anchored gated agent-prototype network for speech emotion recognition"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "AGAP-Net contributors"}]
+dependencies = ["torch>=2.2,<3", "numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+extract = ["transformers>=4.41,<6", "soundfile>=0.12,<1", "scipy>=1.11,<2"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+agapnet-extract = "agapnet.features:main"
+agapnet-train = "agapnet.train:main"
+agapnet-predict = "agapnet.predict:main"
+
+[project.urls]
+Repository = "https://github.com/wyyy5111/AGAP-Net"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

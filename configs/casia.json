@@ -1,0 +1,11 @@
+{
+  "model": {
+    "input_dropout": 0.3,
+    "embedding_dropout": 0.3,
+    "moment_ratio": 0.0
+  },
+  "training": {
+    "epochs": 100,
+    "seed": 1
+  }
+}

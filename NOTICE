@@ -1,0 +1,15 @@
+AGAP-Net
+Copyright (c) 2026 AGAP-Net contributors
+
+This repository contains the AGAP-Net core implementation.
+
+The attention computation builds on Agent Attention:
+https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06652.pdf
+The model combines gated values with independently trainable, affect-initialized agents.
+
+The frozen XLS-R-2B encoder is provided separately by Meta:
+https://huggingface.co/facebook/wav2vec2-xls-r-2b
+Its model card lists the Apache-2.0 license. Encoder weights are not redistributed here.
+
+Speech corpora and user-generated caches are governed by their respective access conditions.
+The MIT license in this repository applies to the released project code and documentation.

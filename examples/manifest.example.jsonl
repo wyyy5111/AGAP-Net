@@ -1,0 +1,6 @@
+{"id":"utt_001","audio":"../data/audio/utt_001.wav","label":"anger","group":"speaker_01"}
+{"id":"utt_002","audio":"../data/audio/utt_002.wav","label":"neutral","group":"speaker_01"}
+{"id":"utt_003","audio":"../data/audio/utt_003.wav","label":"happiness","group":"speaker_01"}
+{"id":"utt_004","audio":"../data/audio/utt_004.wav","label":"anger","group":"speaker_02"}
+{"id":"utt_005","audio":"../data/audio/utt_005.wav","label":"neutral","group":"speaker_02"}
+{"id":"utt_006","audio":"../data/audio/utt_006.wav","label":"happiness","group":"speaker_02"}

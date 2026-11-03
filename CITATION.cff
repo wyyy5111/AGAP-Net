@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use AGAP-Net, please cite this software."
+type: software
+title: "AGAP-Net: Affect-anchored gated agent-prototype network for speech emotion recognition"
+authors:
+  - name: "AGAP-Net contributors"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/wyyy5111/AGAP-Net"
+url: "https://github.com/wyyy5111/AGAP-Net"
