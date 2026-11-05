@@ -1,7 +1,7 @@
 {
   "model": {
     "input_dropout": 0.3,
-    "embedding_dropout": 0.3,
+    "embedding_dropout": 0.15,
     "moment_ratio": 0.5
   },
   "training": {

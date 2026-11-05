@@ -70,7 +70,7 @@ agapnet-train \
 
 This command trains a separate model for every held-out group. To run one fold, add `--held-out speaker_01`. `--seed` and `--epochs` override the corresponding training settings.
 
-The three configuration files supply the main AGAP-Net settings for EmoDB, CASIA, and BodEMODB. The BodEMODB configuration uses the upper half of vectors by norm for moment estimation; the EmoDB configuration uses 0.15 dropout in the utterance embedding. All use the complete temporal, spectral, and prototype computation.
+The three configuration files supply the main AGAP-Net settings for EmoDB, CASIA, and BodEMODB. All three use 0.15 dropout in the utterance embedding. The BodEMODB configuration uses the upper half of vectors by norm for moment estimation. All use the complete temporal, spectral, and prototype computation.
 
 Training uses AdamW, a fixed 100-epoch schedule, warmup and cosine decay, random feature crops, time masking, channel dropping, and feature noise. Fold moments are estimated from training utterances only. Evaluation uses the final exponential moving average of the parameters and no test-time shifts.
 
